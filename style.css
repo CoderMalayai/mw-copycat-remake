@@ -1,0 +1,265 @@
+/* Nav starts here */
+
+.navlocation {
+    background-color: #b40e0b;
+    padding: 0.1px 6px;
+  }
+  
+  .navlocation .navlinks {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .navlocation .navlinks li a {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  /* Nav ends here */
+  
+  /* Header & Logo starts here */
+  
+  .background-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+    background-repeat: "no-repeat";
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 20px 50px;
+  }
+  
+  .background-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-content .main-title {
+    font-size: 60px;
+    color: #b40e0b;
+  }
+  
+  .background-container .logo {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #807c80b6;
+    border-radius: 50%;
+    border: 6px solid #b40e0b;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background-container .logo img {
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  /* Header & Logo ends here */
+  
+  /* About Us starts here */
+  
+  #fibs-aboutus {
+    display: flex;
+    align-items: center;
+    background: #dac146;
+  }
+  
+  .about-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about-us-content {
+    font-size: 18px;
+    line-height: 40px;
+    margin: 20px;
+    padding: 15px;
+  }
+  
+  /* About Us ends here */
+  
+  /* Quarterly Menu starts here */
+  
+  #quarterly-menu {
+    padding: 40px;
+  }
+  
+  #quarterly-menu h2 {
+    text-align: center;
+  }
+  
+  #quarterly-menu .menu-foods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 0.5px;
+  }
+  
+  .menu-foods .wrap-selection {
+    margin-right: 20px;
+  }
+  
+  .menu-foods .food-item h4 {
+    margin: 0 0 5px;
+    font-size: 20px;
+  }
+  
+  .menu-foods .food-item p {
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 600px;
+    width: 70%;
+  }
+  
+  /* Quarterly Menu ends here */
+  
+  /* Headings starts here */
+  
+  h1 {
+    font-family: monospace;
+    font-size: 40px;
+    margin: 105px;
+    color: red;
+  }
+  
+  h2 {
+    font-family: monospace;
+    font-size: 30px;
+    margin: 20px;
+    color: red;
+  }
+  
+  h3 {
+    font-family: monospace;
+    font-size: 25px;
+    margin: 20px;
+    color: #a11907;
+  }
+  
+  h4 {
+    font-family: monospace;
+    font-size: 18px;
+    margin: 20px;
+    color: #b61c08;
+  }
+  
+  /* Headings ends here */
+  
+  /* Math's Favs starts here */
+  
+  #math-details {
+    background-color: #1b7d17;
+    padding: 50px 6px;
+  }
+  
+  .mathematician h2 {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
+  .para-math {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
+  .math-favs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  /* Math's Favs ends here */
+  
+  /* Location & Hours starts here */
+  
+  .location-container {
+    display: flex;
+    align-content: center;
+    padding: 40px 0px;
+  }
+  
+  .location-container .location-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .location-container .fibs-location {
+    max-width: 450px;
+    width: 100%;
+    padding: 35px 32px 30px 18px;
+    background-color: #eea9aa;
+  }
+  
+  .fibs-hours {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .location-restaurant .fibs-hours li {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  
+  /* Location & Hours ends here */
+  
+  .wiki-rest {
+    text-align: center;
+  }
+  
+  /* Social Media starts here */
+  
+  #social-main .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  #social-main .social-media .media {
+    max-width: 50px;
+    width: 100%;
+    height: 100%;
+    margin: 20px 6px 12px;
+    cursor: pointer;
+  }
+  
+  #social-main .social-media .media img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Social Media ends here */
+  
+  /* Rights starts here */
+  
+  .rights {
+    text-align: center;
+  }
+  
+  /* Rights ends here */
+  
